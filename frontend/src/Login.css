@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.button_style {
+  margin-left: 4px !important;
+  margin-right: 6px;
+  width: 300px;
+  height: 40px;
+  background-color: #ff5565;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.button_style1 {
+  width: 100px;
+  height: 40px;
+  background-color: #ff5565;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 84%;
+}
+#standard-basic,
+#standard-basicb,
+#standard-basicd {
+  width: 390px;
+  border: 1px solid white;
+  background-color: #a0c4ff;
+  border-radius: 20px;
+  border-width: 3px;
+  height: 45px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#standard-basic:hover {
+  background-color: #9276ff;
+}
+#standard-basicb:hover {
+  background-color: #9276ff;
+}
+#standard-basicd:hover {
+  background-color: #9276ff;
+}
+
+#standard-basic1 {
+  width: 1000px;
+  border: 1px solid white;
+  background-color: #09212e;
+  border-radius: 10px;
+  border-width: 3px;
+  height: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.centerTable {
+  margin: 0px auto;
+}
+
+h2 {
+  color: #ff5565;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 90px;
+}
+
+.bg {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/57a6dde1-f7e2-4e69-8bf4-6d659f0bded1.jpg);
+  background-color: #a0c4ff;
+  height: 100vh;
+  color: white;
+}
+.boxstyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 70%;
+  background-color: #9276ff;
+  background-image: url(images/blue-wall-background.jpg);
+  box-shadow: 24;
+  border-style: hidden;
+}
+.inputField {
+  position: absolute;
+  bottom: 0%;
+  padding-top: 3px;
+  left: 10%;
+  padding-bottom:3px;
+  width: 100%;
+  background-color: green;
+}
+.gbox {
+  background-image: url(images/vecteezy_login-concept-with-security-username-and-password-people_.jpg);
+  background-size: cover;
+  height: 70vh;
+  color: aliceblue;
+}
+.g2box {
+  background-image: url(images/blue-wall-background.jpg);
+  background-color: #09212e;
+  background-size: cover;
+  height: 70vh;
+}
+.typo {
+  color: #ff5565;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.popup,
+.error {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 40%;
+  height: 28%;
+  color: #9276ff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #09212e;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.pdfCSS {
+  display: block;
+  margin-left: 5px;
+  border: 10px solid #f3f3f3;
+  height:100%;
+}
